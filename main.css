@@ -1,0 +1,222 @@
+/*Index.html*/
+.logo{
+  overflow: auto;
+  color: #3A58E5;
+}
+
+.logo a{
+  float: left;
+}
+
+.logo p{
+  margin-top: 60px;
+  float: left;
+  margin-left: 50px;
+}
+
+.logo_1 a{
+  float: right;
+  margin-right: 10px;
+  margin-top: 60px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.image{
+  position: absolute;
+  width: 99%;
+
+}
+
+.Login{
+  position: absolute;
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  border-style: solid;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 21%;
+}
+
+.Login p{
+  font-size: 2em;
+}
+
+.action{
+  padding-bottom: 35px;
+}
+
+.action input[type=email]{
+height: 25px;
+width: auto;
+padding-left: 10px;
+}
+
+.action input[type=password]{
+height: 25px;
+width: auto;
+padding-left: 10px;
+}
+
+.Login button{
+height: 31px;
+color: #EA401B;
+text-align: center;
+}
+
+.information{
+  position: relative;
+  margin-top: 550px;
+  text-align: center;
+}
+
+/*Events.html*/
+
+.locations:hover{
+  border: 1px solid #777;
+}
+
+.locations{
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 150px;
+  width: 35%;
+}
+
+.locations img{
+  width: 100%;
+  height: 300px;
+}
+
+.desc{
+  clear: inherit;
+  padding: 15px;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.box {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color:#ebebe0;
+}
+
+.box p{
+  position: relative;
+  font-size: .6em;
+  text-align: center;
+}
+
+.events{
+  clear: right;
+}
+
+/*Ice_Skating Page*/
+.Heading{
+  position: relative;
+  color: #000000;
+  margin-top: 400px;
+}
+
+.details_1{
+  margin: 15px;
+  text-align: justify;
+  float: left;
+  margin-left: 150px;
+  width: 35%;
+  font-size: 1.5em;
+}
+
+.details_2{
+  margin: 15px;
+  text-align: center;
+  float: left;
+  margin-left: 150px;
+  width: 40%;
+  font-size: 1.5em;
+}
+
+.details{
+  clear: left;
+}
+
+.Ticketconfirm button{
+  float: right;
+  margin-right: 15px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+}
+
+#Cancel{
+  width: 150px;
+  padding: 5px;
+  margin-right: 190px;
+}
+
+#Interested{
+  width: 150px;
+  padding: 5px;
+}
+
+/*New Event*/
+
+.new_event{
+  width: 50%;
+  float: left;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+}
+
+.new_event input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical ;
+}
+
+.new_event input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical ;
+}
+
+.new_event input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin-left: 25%;
+}
+
+.new_event input[type=Submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin-left: 25%;
+}
